@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1742964995 source:/home/andreaquilau/Projects/dio/learning-c/code_blocks/ApplicationC/main.c
+	<stdio.h>
+	<unistd.h>
+
