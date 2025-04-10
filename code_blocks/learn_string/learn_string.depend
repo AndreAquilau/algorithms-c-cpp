@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1743274380 source:/home/andreaquilau/Projects/dio/learning-c/code_blocks/learn_string/main.c
+	<stdio.h>
+	<stdlib.h>
+
