@@ -1,35 +1,93 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+
+void display(int x, int y);
+char getCharacter();
+unsigned char getCharUnsigned();
+signed char getCharSigned();
+_Bool isAtivo();
+int *numbers();
 
 int main()
 {
-    // Data Type Character
-    char a = 'A';
-    unsigned char b = 'B';
-    signed char c = 'C';
+    int *test = numbers();
+    // display(5, 10);
 
-    // Data Type Short
-    short d = 10;
-    unsigned short e = 33;
-    signed short f = 56;
+    // printf("Caracter: %c\n", getCharacter());
 
-    // Data Type Integer
-    int g = 77;
-    unsigned int h = 88;
-    signed int i = 99;
+    // printf("Caracter: %c\n", getCharUnsigned());
 
-    // Data Type Long
-    long j = 66;
-    unsigned long k = 33;
-    signed long l = 77;
+    // printf("Caracter: %c\n", getCharSigned());
 
-    // Data Type Decimal
+    // printf("Ativo : %d\n", isAtivo());
 
-    float m = 55;
-    double n = 65;
-    long double o = 0;
+    free(test);
 
-    printf("%c\n%c\n%c\n%d\n%d\n%d\n%d\n%d\n%d\n%ld\n%ld\n%ld\n%f\n%f\n%Lf\n", a, b, c, d, e, f, g, h, i, j, k, l, m, n, o);
+    printf("int %ld\n", sizeof(int));
+
+    getchar();
 
     return 0;
+}
+
+// Check
+void display(int x, int y)
+{
+    for (int i = 0; i < x; i++)
+    {
+        for (int j = 0; j < y; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+
+_Bool isAtivo()
+{
+    int ativo = 0;
+
+    printf("Digite 0 ou 1: ");
+
+    scanf("%d[^\n]", &ativo);
+
+    return (_Bool)ativo;
+}
+
+// Check
+char getCharacter()
+{
+    char character;
+
+    printf("Digite um caracter: ");
+
+    scanf("%1c[^\n]", &character);
+
+    return character;
+}
+
+// Check
+unsigned char getCharUnsigned()
+{
+    unsigned char character;
+
+    printf("Digite um Caracter: ");
+
+    scanf("%1c[^\n]", &character);
+
+    return character;
+}
+
+// Check
+signed char getCharSigned()
+{
+    signed char character = '\0';
+
+    printf("Digite um Caracter: ");
+
+    scanf("%1c[^\n]", &character);
+
+    return character;
 }

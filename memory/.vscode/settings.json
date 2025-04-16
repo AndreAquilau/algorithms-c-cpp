@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.ex": "elixir",
+        "stdio.h": "c",
+        "stdbool.h": "c",
+        "string.h": "c",
+        "bit": "c",
+        "concepts": "c",
+        "cstdio": "c",
+        "type_traits": "c",
+        "new": "c",
+        "typeinfo": "c",
+        "stdlib.h": "c"
+    }
+}
