@@ -4,6 +4,7 @@
 #include <string.h>
 
 int operacoes();
+long int decimalToBinary(long int number);
 
 int main()
 {

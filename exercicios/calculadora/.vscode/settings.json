@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.ex": "elixir",
-        "cmath": "c"
+        "cmath": "c",
+        "type_traits": "c"
     }
 }
