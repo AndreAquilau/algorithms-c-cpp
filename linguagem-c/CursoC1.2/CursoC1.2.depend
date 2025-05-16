@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1744854185 source:/home/andreaquilau/Projects/dio/learning-c/linguagem-c/CursoC1.2/main.c
+	<stdio.h>
+	<stdlib.h>
+
