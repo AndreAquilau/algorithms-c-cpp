@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <functions.h>
 
 void printl(int argc, char *argv[])
 {
